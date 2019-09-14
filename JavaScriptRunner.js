@@ -4,7 +4,7 @@
         return {status: 2, msg: 'Swag'};
     };
     ext.run_code= function() {
-        // insert code here
+        fetch("http://localhost:5000/");
     };
     var descriptor = {
         blocks: [
